@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+.conatiner {
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px black;
+    background-size: 100% 100%;
+    animation:bganimation 15s linear 1;
+}
+
+@keyframes bganimation {
+    0%{
+        background-image:url(https://c4.wallpaperflare.com/wallpaper/296/400/37/movie-avengers-infinity-war-black-panther-movie-black-widow-wallpaper-preview.jpg) ;
+    }
+    30% {
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/591/844/1024/spider-man-spider-video-games-superhero-wallpaper-preview.jpg);
+    }
+    60% {
+        background-image: url(https://e1.pxfuel.com/desktop-wallpaper/207/1002/desktop-wallpaper-8-avengers-avengers-pc.jpg);
+    }
+    100% {
+        background-image:url(https://wallpaper.dog/large/5453946.jpg);
+    }
+}
